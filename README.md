@@ -1,11 +1,17 @@
 <div align="center">
-<h1>Laravel Repman</h1>
+<h1>Laravel Square</h1>
 </div>
 <hr />
 
 ## **NOTE: This package is still in development and is not yet ready for production use. Use at your own risk.**
 
+This package is in active development, and will continue to be updated with new features and bug fixes. If you find a bug, please open an issue.
+
 [Square](https://squareup.com) is a Payment Service Provider that offers a variety of services to help businesses accept payments. This package provides a simple way to integrate Square's payment gateway into your Laravel application.
+
+We use the latest version of the Square API to provide you with the most up-to-date features and functionality.
+
+**Current API Version:** 2024-11-20
 
 ## Documentation
 
