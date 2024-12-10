@@ -5,7 +5,7 @@
         "elijahcruz",
         "laravel",
         "laravel-square",
-        "square"
+        "SquareService"
     ],
     "autoload": {
         "psr-4": {
@@ -33,6 +33,7 @@
         }
     },
     "require-dev": {
+        "laravel/pint": "^1.18",
         "orchestra/testbench": "^9.0"
     },
     "extra": {

@@ -1,5 +1,7 @@
 <?php
 
+namespace Elijahcruz\LaravelSquare;
+
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
@@ -15,9 +17,9 @@ class SquareServiceProvider extends PackageServiceProvider
     public function bootingPackage()
     {
         $this->app->singleton(
-            abstract: Square::class,
+            abstract: SquareService::class,
             concrete: function ($app) {
-                return new Square();
+                return new SquareService;
             }
         );
     }

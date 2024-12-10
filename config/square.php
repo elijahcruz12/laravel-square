@@ -11,7 +11,7 @@ return [
     'currency' => env('SQUARE_CURRENCY', 'USD'),
 
     /**
-     * This updates the version of the Square API that is used.
+     * This updates the version of the SquareService API that is used.
      * When the package is updated, this value will be updated to the latest version.
      */
     'square_version' => env('SQUARE_VERSION', '2024-11-20'),

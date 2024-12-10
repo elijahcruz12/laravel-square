@@ -3,6 +3,8 @@
 </div>
 <hr />
 
+## **NOTE: This package is still in development and is not yet ready for production use. Use at your own risk.**
+
 [Square](https://squareup.com) is a Payment Service Provider that offers a variety of services to help businesses accept payments. This package provides a simple way to integrate Square's payment gateway into your Laravel application.
 
 ## Documentation
