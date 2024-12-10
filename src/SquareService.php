@@ -2,6 +2,7 @@
 
 namespace Elijahcruz\LaravelSquare;
 
+use Elijahcruz\LaravelSquare\Resources\CustomerResource;
 use Saloon\Http\Connector;
 
 class SquareService extends Connector
@@ -21,5 +22,10 @@ class SquareService extends Connector
             'Authorization' => 'Bearer '.config('square.token'),
             'Content-Type' => 'application/json',
         ];
+    }
+
+    public function customers(): CustomerResource
+    {
+        return new CustomerResource($this);
     }
 }

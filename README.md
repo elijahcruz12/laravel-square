@@ -1,6 +1,14 @@
 <div align="center">
 <h1>Laravel Square</h1>
+
+<div>
+
+![SquareVersion](https://img.shields.io/badge/Square_Version-2024%2F11%2F20-blue)
+
 </div>
+</div>
+
+
 <hr />
 
 ## **NOTE: This package is still in development and is not yet ready for production use. Use at your own risk.**
