@@ -19,6 +19,7 @@ class PaginatedResponse extends Response
         if ($this->hasNext()) {
             $request = $this->pendingRequest->getRequest();
             $request->query()->set('cursor', $this->json()['cursor']);
+
             return $request;
         }
     }
@@ -42,7 +43,7 @@ class PaginatedResponse extends Response
 
         // We need to make sure there's items to return
         if (empty($array)) {
-            return new Collection();
+            return new Collection;
         }
 
         $collection = collect();

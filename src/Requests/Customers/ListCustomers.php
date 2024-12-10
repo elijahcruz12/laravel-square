@@ -2,7 +2,6 @@
 
 namespace Elijahcruz\LaravelSquare\Requests\Customers;
 
-use Elijahcruz\LaravelSquare\Contracts\PaginatedRequestContract;
 use Elijahcruz\LaravelSquare\Responses\PaginatedResponse;
 use Saloon\Enums\Method;
 use Saloon\Http\Request;
